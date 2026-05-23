@@ -1858,6 +1858,8 @@ ul {
     /* Navigation Bar */
     .mobile-toggle {
         display: flex;
+        position: relative;
+        z-index: 101;
     }
     
     .nav-menu {
