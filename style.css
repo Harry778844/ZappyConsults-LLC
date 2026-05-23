@@ -370,9 +370,6 @@ ul {
     display: inline-block;
 }
 
-.mobile-only-cta {
-    display: none;
-}
 
 /* Mobile Hamburger Menu */
 .mobile-toggle {
@@ -1932,10 +1929,6 @@ ul {
         display: none;
     }
     
-    .mobile-only-cta {
-        display: block;
-        width: 100%;
-    }
     
     /* Toggle active hamburger animations */
     .mobile-toggle.active .bar:nth-child(1) {
