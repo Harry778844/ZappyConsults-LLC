@@ -383,6 +383,10 @@ ul {
     transition: var(--transition-fast);
 }
 
+.menu-close {
+    display: none;
+}
+
 /* ==========================================================================
    5. COMMON COMPONENTS & SECTIONS
    ========================================================================== */
@@ -1858,8 +1862,26 @@ ul {
     /* Navigation Bar */
     .mobile-toggle {
         display: flex;
-        position: relative;
-        z-index: 101;
+    }
+    
+    .menu-close {
+        display: block;
+        position: absolute;
+        top: 2rem;
+        right: 2.25rem;
+        font-size: 1.75rem;
+        color: var(--text-primary);
+        cursor: pointer;
+        transition: var(--transition-bounce);
+        background: none;
+        border: none;
+        outline: none;
+        padding: 0.5rem;
+    }
+    
+    .menu-close:hover {
+        color: var(--coral-accent);
+        transform: scale(1.15);
     }
     
     .nav-menu {

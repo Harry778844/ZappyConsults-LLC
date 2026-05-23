@@ -49,6 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // ==========================================================================
     const mobileToggle = document.getElementById("mobile-toggle");
     const navMenu = document.getElementById("nav-menu");
+    const menuClose = document.getElementById("menu-close");
 
     if (mobileToggle && navMenu) {
         mobileToggle.addEventListener("click", () => {
@@ -56,6 +57,14 @@ document.addEventListener("DOMContentLoaded", () => {
             navMenu.classList.toggle("open");
             document.body.style.overflow = navMenu.classList.contains("open") ? "hidden" : "";
         });
+
+        if (menuClose) {
+            menuClose.addEventListener("click", () => {
+                mobileToggle.classList.remove("active");
+                navMenu.classList.remove("open");
+                document.body.style.overflow = "";
+            });
+        }
 
         navLinks.forEach(link => {
             link.addEventListener("click", () => {
