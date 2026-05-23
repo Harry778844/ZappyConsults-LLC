@@ -1,0 +1,10 @@
+# Protect the data stores from public access
+<FilesMatch "^(submissions|testimonials)\.json$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order Allow,Deny
+        Deny from all
+    </IfModule>
+</FilesMatch>

@@ -1,0 +1,5 @@
+# Exclude database / submissions data
+submissions.json
+
+# Exclude large zip backup files
+zappy_website.zip

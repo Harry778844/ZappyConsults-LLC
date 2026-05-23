@@ -1,0 +1,16 @@
+[
+    {
+        "id": "t_vance",
+        "name": "Genevieve Vance",
+        "role": "Chief Operating Officer, Veloce Logistics",
+        "rating": 5,
+        "quote": "Zappy Consults completely rewrote our growth narrative. Their digital transformation roadmap cut our operations cost by 35% while expanding client onboarding speed tenfold. Absolutely revolutionary team."
+    },
+    {
+        "id": "t_thornwood",
+        "name": "Marcus Thornwood",
+        "role": "Founder & CEO, HyperScale FinTech",
+        "rating": 5,
+        "quote": "We had a solid product but zero scaling traction. Zappy helped us rebuild our unit economics and launch dynamic governance strategies that unlocked a 3x average growth multiplier in under five months."
+    }
+]
