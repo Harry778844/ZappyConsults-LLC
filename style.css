@@ -810,7 +810,7 @@ ul {
     padding: 4rem 0;
     border-top: 1px solid var(--border-color);
     border-bottom: 1px solid var(--border-color);
-    background: rgba(4, 4, 7, 0.25);
+    background: var(--bg-darker);
     backdrop-filter: blur(8px);
 }
 
