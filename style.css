@@ -366,6 +366,14 @@ ul {
     transform: translateY(-2px);
 }
 
+.header-right-cta {
+    display: inline-block;
+}
+
+.mobile-only-cta {
+    display: none;
+}
+
 /* Mobile Hamburger Menu */
 .mobile-toggle {
     display: none;
@@ -1918,6 +1926,15 @@ ul {
         width: 100%;
         text-align: center;
         margin-top: 1.5rem;
+    }
+    
+    .header-right-cta {
+        display: none;
+    }
+    
+    .mobile-only-cta {
+        display: block;
+        width: 100%;
     }
     
     /* Toggle active hamburger animations */
